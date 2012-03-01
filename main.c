@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 	char	date_str[80];
 
 	if(argc != 2) {
-		printf("Error\n");
+		printf("usage: %s <unix timestamp>\n", argv[0]);
 		return -1;
 	}
 
