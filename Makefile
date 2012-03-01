@@ -13,4 +13,5 @@ main.o: main.c
 clean:
 	rm -f *~
 	rm -f .*~
-	rm -f *,o
+	rm -f *.o
+	rm -f $(NAME)
