@@ -9,3 +9,8 @@ $(NAME):$(OBJ)
 
 main.o: main.c
 	$(CC) $(CFLAGS) -c main.c
+
+clean:
+	rm -f *~
+	rm -f .*~
+	rm -f *,o
