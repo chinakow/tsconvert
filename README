@@ -1,0 +1,11 @@
+tsconverter -- timestamp converter
+--------------------------------------------------
+
+There are probably a thousand of these already out there but I just
+wanted to be able to say I have a project hosted somewhere.
+
+The program is super simple and probably full of bugs. just add an
+integer on the command line and it attempts to convert it to a date
+based on the unix epoch. I make no guaranees and I don't care how many
+lawyers you find, you should know better than to trust code you find on
+the internet.
